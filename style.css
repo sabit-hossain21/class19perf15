@@ -1,0 +1,58 @@
+i{
+    color: blue;   
+}
+h1,h2{
+    border: 2px green solid;
+    display: inline;
+    height: 30px width: 40px;
+    
+    background-color: aqua;
+}
+a{
+    display: block;
+}
+.width{
+    position: relative;
+    left: 100px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid red;
+}
+
+.max_width{
+    max-width: 500px;
+    margin: auto;
+    border: 2px solid blue;
+}
+.box1{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+}
+.sub-box{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-color:red;
+    border-radius: 50%;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    border: 2px solid greenyellow;
+    background-color: aquamarine;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid red;
+    background-color: bisque;
+}
